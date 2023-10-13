@@ -21,9 +21,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ImgBx_Images", "ImgBx_Image
 		Labs\01.ImgBx\ImgBx_Images\pepe_318x320.jpg = Labs\01.ImgBx\ImgBx_Images\pepe_318x320.jpg
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Code manipulation", "02.Code manipulation", "{C1B21D8F-7D3E-4A0C-AA44-7700825B51CA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Code_Manipulation", "02.Code_Manipulation", "{C1B21D8F-7D3E-4A0C-AA44-7700825B51CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code_Manipulation", "Lessons\02.Code manipulation\Code_Manipulation\Code_Manipulation.csproj", "{68A8FED5-9359-41EF-9D6C-E7599E5C69C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Code_Manipulation", "Lessons\02.Code manipulation\Code_Manipulation\Code_Manipulation.csproj", "{68A8FED5-9359-41EF-9D6C-E7599E5C69C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.ConsoleApp", "02.ConsoleApp", "{8BC2823D-EB1D-458D-BB6D-647D49A59598}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CnslApp.Presentation", "CnslApp.Presentation", "{B484898C-1A26-444B-B868-F2E0F6741AF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Presentation", "02.ConsoleApp\CnslApp.Presentation\ConsoleApp.Presentation\ConsoleApp.Presentation.csproj", "{433D7EC4-6AB3-4BDB-A325-F5D53D6604D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,10 @@ Global
 		{68A8FED5-9359-41EF-9D6C-E7599E5C69C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68A8FED5-9359-41EF-9D6C-E7599E5C69C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68A8FED5-9359-41EF-9D6C-E7599E5C69C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{433D7EC4-6AB3-4BDB-A325-F5D53D6604D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433D7EC4-6AB3-4BDB-A325-F5D53D6604D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433D7EC4-6AB3-4BDB-A325-F5D53D6604D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433D7EC4-6AB3-4BDB-A325-F5D53D6604D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +60,9 @@ Global
 		{A02FCBC3-DA1E-423C-9085-AB16320E5113} = {9EEDD498-9A01-4312-B302-CF9F81EE60DC}
 		{C1B21D8F-7D3E-4A0C-AA44-7700825B51CA} = {0AE415C5-06A0-4BC2-BFD0-A2B69BEFFF6E}
 		{68A8FED5-9359-41EF-9D6C-E7599E5C69C3} = {C1B21D8F-7D3E-4A0C-AA44-7700825B51CA}
+		{8BC2823D-EB1D-458D-BB6D-647D49A59598} = {F2F3769B-F9C1-4FBC-829D-27AD5C3AFE38}
+		{B484898C-1A26-444B-B868-F2E0F6741AF6} = {8BC2823D-EB1D-458D-BB6D-647D49A59598}
+		{433D7EC4-6AB3-4BDB-A325-F5D53D6604D3} = {B484898C-1A26-444B-B868-F2E0F6741AF6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E952F395-AAAC-43CD-BB52-B2C8CBD27F51}
