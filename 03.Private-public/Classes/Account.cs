@@ -18,7 +18,30 @@ namespace Classes
         {
             return name; 
         }
-       
-    }
-	
+
+	}
+	//public void SetName(string acaountaem)
+	//{
+
+	//    Name = acaountaem;
+	    //{
+
+	//        ;
+	//    }
+	//}
+	//burada kaç tane farklı ıdentfyer var
+	//uml clas diagram
+	//    public void hetName(string acaountaem)
+	/*
+		-name: string
+		--------------
+		+SetName(acountName:String)
+		+GetName():string
+
+		+<<property>>Name : string
+							guid olursa ne olucak ?
+
+
+	*/
+
 }
