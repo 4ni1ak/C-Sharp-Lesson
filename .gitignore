@@ -399,3 +399,6 @@ FodyWeavers.xsd
 
 # Windows configuration file
 desktop.ini
+
+#Private file
+PrivateInformations.json
