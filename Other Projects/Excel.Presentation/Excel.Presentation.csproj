@@ -18,4 +18,10 @@
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Bogus">
+      <HintPath>..\..\..\..\.nuget\packages\bogus\34.0.2\lib\net6.0\Bogus.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

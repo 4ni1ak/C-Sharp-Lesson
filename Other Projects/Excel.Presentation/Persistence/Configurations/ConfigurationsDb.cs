@@ -8,7 +8,7 @@ namespace Excel.Presentation.Persistence.Configurations
         {
             ConfigurationManager configurationManager = new();
 
-            string path = $"{Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName}\\Persistence\\Configurations";
+            string path = $"C:\\Users\\Bhs\\Desktop\\C-Sharp-Lesson\\Other Projects\\Excel.Presentation\\Persistence\\Configurations\\";
 
             configurationManager.SetBasePath(path);
 
